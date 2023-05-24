@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hypershift-rlfy
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/azaalouk-tenant/hypershift/hypershift-rlfy@sha256:88c8cc194925c9cc9c304dcdb5242db596a050231c70c4a13c61d25964c0c0d0
+        name: container-image
+        resources: {}
+status: {}
