@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: hypershift-rlfy
     app.kubernetes.io/part-of: hypershift
-  name: hypershift-rlfyqofp
+  name: hypershift-rlfyq3jq
 spec:
   port:
     targetPort: 16
