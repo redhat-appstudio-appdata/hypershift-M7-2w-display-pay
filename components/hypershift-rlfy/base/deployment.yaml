@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: hypershift-rlfy
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/azaalouk-tenant/hypershift/hypershift-rlfy@sha256:88c8cc194925c9cc9c304dcdb5242db596a050231c70c4a13c61d25964c0c0d0
+      - image: quay.io/redhat-user-workloads/azaalouk-tenant/hypershift/hypershift-rlfy@sha256:945cfd78a6aab8729bc5941594de9a491b6963a2c8f053b6cf89a7eb849f695e
         imagePullPolicy: Always
         name: container-image
         ports:
